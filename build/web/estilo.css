@@ -1,0 +1,99 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-abr-2018, 12:27:20
+    Author     : fjoost
+*/
+.carousel-control-prev-icon{
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnGtqXaRtxP_zkWS1Lg2OItAQIwIGqbmogGegzEFOs2kgXoq4);
+    transform: rotate(180deg);
+    size: 30px;
+    color: black;
+}
+.carousel-control-next-icon{
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnGtqXaRtxP_zkWS1Lg2OItAQIwIGqbmogGegzEFOs2kgXoq4);
+    size: 30px;
+    color: black;
+}
+
+.gallery_product{
+    alignment-adjust: 100%;
+    margin-top: 2px;
+}
+
+.reseña{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 45px;
+}
+
+.navbar-dark{
+    background-color: black;
+    color: black;
+}
+
+.nav-link{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 12px;
+}
+
+.dropdown-item{
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    font-size: 12px;
+    
+}
+
+.btn-outline-success{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: black;
+    border-color: white;
+    background: no-repeat;
+}
+
+.moto1, .h6{
+    margin-top: 30px;    
+    font-family: 'Helvetica', monospace;
+    font-size: 14px;
+}
+
+.moto2{
+    margin-top: 30px;    
+    font-family: 'Helvetica', monospace;
+    font-size: 14px;
+}
+
+#motoloncin{
+    font-family: 'Helvetica', monospace;
+    font-size: 18px;
+    
+}
+
+.footer {
+    width: auto;
+    height: 200px;
+    margin-top: 150px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    background: black;
+    border-top: solid black 1px;
+}
+
+.foot1, .foot2, .foot3{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Helvetica', monospace;
+    font-size: 14px;
+    color: white;
+}
+
+
