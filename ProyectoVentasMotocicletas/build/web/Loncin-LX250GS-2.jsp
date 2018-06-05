@@ -64,6 +64,14 @@
                       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
                   </form>
+                  <ul class="navbar-right">
+                      <li>
+                          <a href="carroCompras.jsp" id="cart">
+                              <img  class="image_shopping"src="https://cdn4.iconfinder.com/data/icons/shopping-21/64/shopping-02-512.png" width="50px">
+                              <i class="fa fa-shopping-cart"></i>  <span class="badge">3</span>
+                          </a>
+                      </li>
+                  </ul>
               </div>
           </nav>
              

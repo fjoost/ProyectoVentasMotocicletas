@@ -27,6 +27,72 @@ and open the template in the editor.
     color: black;
 }
 
+
+
+.badge {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    
+}
+
+.shopping-cart {
+  margin: 20px 0;
+  float: right;
+  background: white;
+  width: 320px;
+  position: relative;
+  border-radius: 3px;
+  padding: 20px;
+  
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 15px;
+    
+    .shopping-cart-total {
+      float: right;
+    }
+  }
+  
+  .shopping-cart-items {
+    
+    padding-top: 20px;
+
+      li {
+        margin-bottom: 18px;
+      }
+
+    img {
+      float: left;
+      margin-right: 12px;
+    }
+    
+    .item-name {
+      display: block;
+      padding-top: 10px;
+      font-size: 16px;
+    }
+    
+    /*.item-price {
+      color: $main-color;
+      margin-right: 8px;
+    }*/
+    
+    /*.item-quantity {
+      color: $light-text;
+    }*/
+  }
+   
+}
+
 .gallery_product{
     alignment-adjust: 100%;
     margin-top: 2px;
@@ -218,4 +284,8 @@ transform:translatey(0);
     background-image: no-repeat;
     border: none;
     text-align: center;
+}
+
+.image_shopping{
+    filter: invert(100%);
 }
