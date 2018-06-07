@@ -16,33 +16,61 @@
     </head>
     <body>
         <div class="container">
+            
+            <div class="form-group col-md-12 container">
+                <h3>Ingreso Usuario</h3>
+            </div>
+            
             <form>
-                <div class="form-group">
-                    
-                    <label id="registroCliente">Nombre:</label>
-                    <input type="text" id="registroNombre" class="form-control" placeholder="Ingresar Nombre">
-                   
-                </div>
-                
-                <div class="form-group">
-                    <label id="correoCliente">Correo:</label>
-                    <div class="form-group">
-                        <input type="email" id="correoCliente" class="form-control" placeholder="Ingrese Correo" aria-describebdy="correoAuxiliar">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label id="registroCliente">Nombre:</label>
+                        <input type="text" id="registroNombre" class="form-control" placeholder="Ingresar Nombre">
                     </div>
-                    <small id="correoAuxiliar" class="form-text text-mute">Jamas compartiremos tu cuenta de correo.</small>
                 </div>
                 
-                <div class="form-group" col-md-10>
-                    <label id="contraseñaCliente">Contraseña:</label>
-                    <input type="password" id="contraseñaCliente" placeholder="Ingresar Contraseña" class="form-control">
+               
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label id="correoCliente">Correo:</label>
+                        <input type="email" id="correoCliente" class="form-control" placeholder="Ingrese Correo" aria-describebdy="correoAuxiliar">
+                        <small id="correoAuxiliar" class="form-text text-mute">Jamas compartiremos tu cuenta de correo.</small>
+                    </div>
+                    
                 </div>
                 
-                <div class="form-check"
-                    <input type="checkbox" class="form-check-input" id="ejemploCheck1">
-                    <label class="form-check-label" id="ejemploCheck1">Confirmar Datos:</label>
+                
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label id="contraseñaCliente">Contraseña:</label>
+                        <input type="password" id="contraseñaCliente" placeholder="Ingresar Contraseña" class="form-control">
+                    </div>
                 </div>
                 
-                <button type="submit" class="btn btn-primary">Entrar</button>
+                <div class="form-row col-md-12">
+                     
+                      <div class="form-group col-md-12">
+                          <label class="form-group-label">Desea guardar sesion</label>
+                      </div>
+                     
+                     <div class="custom-control custom-radio custom-control-inline">
+                        <label for="radio1" class="radio-inline">
+                             <input type="radio" name="opcion1" id="radio1"><label for="radio1">Guardar</label>
+                        </label>
+                     </div>
+                     
+                     <div class="custom-control custom-radio custom-control-inline">
+                        <label for="radio2" class="radio-inline">
+                             <input type="radio" name="opcion2" id="radio2"><label for="radio1">No Guardar</label>
+                        </label>
+                     </div>
+                    
+                </div>
+                
+           
+                <div class="form-row col-md-12">
+                        <button type="submit" class="btn btn-primary">Entrar</button>
+                </div>
                 
             </form>
             

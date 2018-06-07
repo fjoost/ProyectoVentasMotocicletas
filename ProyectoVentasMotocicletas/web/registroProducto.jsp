@@ -15,8 +15,8 @@
 
     </head>
     <body>
-        <div class="form-group col-md-12">
-                <h3>Formulario de Registro Producto:</h3>
+        <div class="form-group col-md-12 container">
+                <h3 class="formulario">Formulario de Registro Producto:</h3>
         </div>
         
         <div class="container">
@@ -49,27 +49,19 @@
                 <div class="form-row">
                     <div class="form-group col-md-4">
                         <label for="inputMarca">Marca:</label>
-                        <select id="inputMarca" class="form-control">
-                            <option value="seleccioneMarca">Selecccione Marca:</option>
-                            <option value="yamaja">Yamaha</option>
-                        </select>
+                        <input type="text" class="form-control" id="inputMarca" placeholder="Marca">
+
                        
                     </div>
                     
                     <div class="form-group col-md-4">
                             <label for="inputModelo">Modelo:</label>
-                            <select id="inputModelo" class="form-control">
-                                <option value="seleccioneModelo">Selecccione Modelo:</option>
-                                <option value="yamaja">vx1000</option>
-                            </select>
+                            <input type="text" class="form-control" id="inputModelo" placeholder="Modelo">
                     </div>
                     
                     <div class="form-row col-md-4">
                           <label for="inputCilindrada">Cilindrada:</label>
-                            <select id="inputCilindrada" class="form-control">
-                                <option value="seleccioneCilindrada">Selecccione Cilindrada:</option>
-                                <option value="cilindrada1">225</option>
-                            </select>
+                          <input type="text" class="form-control" id="inputMarca" placeholder="Cilindrada">
                     </div>
                     
                 </div>
@@ -174,20 +166,24 @@
                         
                 </div>
                 
-                <div class="form-row">
-                    <div class="form-group col-md-12">
-                        <label id="Guardar">Desea Guardar los Cambios</label>
-                    </div>
-                </div>
-                
-                <div class="form-check form-check-inline col-md-2">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
-                    <label class="form-check-label" id="inlineCheckbox1">Si</label>
-                </div>
-                
-                <div class="form-check form-check-inline col-md-2">
-                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="option2">
-                    <label class="form-check-label" id="inlineCheckbox2">No</label>
+                <div class="form-row col-md-12">
+                     
+                      <div class="form-group col-md-12">
+                          <label class="form-group-label">Confirmar Registro</label>
+                      </div>
+                     
+                     <div class="custom-control custom-radio custom-control-inline">
+                        <label for="radio1" class="radio-inline">
+                             <input type="radio" name="opcion1" id="radio1"><label for="radio1">Si</label>
+                        </label>
+                     </div>
+                     
+                     <div class="custom-control custom-radio custom-control-inline">
+                        <label for="radio2" class="radio-inline">
+                             <input type="radio" name="opcion2" id="radio2"><label for="radio1">No</label>
+                        </label>
+                     </div>
+                    
                 </div>
                 
                 <div class="form-row">
