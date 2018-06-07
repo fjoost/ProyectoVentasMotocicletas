@@ -184,8 +184,13 @@ and open the template in the editor.
     text-align: center;
     border: black 1px solid;
     font-family: 'Roboto Mono', monospace;
-    
-
+}
+.col-sm-3{
+    margin-top: 100px; 
+    text-align: center;
+    border: black 1px solid;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: calc;
 }
 
 .col-sm-6{
@@ -256,7 +261,7 @@ transform:translatey(0);
 }
 
 .row{
-    margin-right: 140px;
+    margin-right: auto;
 }
 
 .col-lg-3{
@@ -265,7 +270,7 @@ transform:translatey(0);
 
 .caracteristicas1{
     font-family: 'Helvetica', monospace;
-    text-align: left;
+    text-align: center;
     text-combine-upright: none;
     text-decoration: none;
     text-justify: none;
@@ -288,4 +293,13 @@ transform:translatey(0);
 
 .image_shopping{
     filter: invert(100%);
+}
+/* Opacity #1 */
+.hoverCarro figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hoverCarro figure:hover img {
+	opacity: .5;
 }

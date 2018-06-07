@@ -64,26 +64,35 @@
                       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
                   </form>
+                  <ul class="navbar-right">
+                      <li>
+                          <a href="carroCompras.jsp" id="cart">
+                              <img  class="image_shopping"src="https://cdn4.iconfinder.com/data/icons/shopping-21/64/shopping-02-512.png" width="50px">
+                              <i class="fa fa-shopping-cart"></i>  <span class="badge">2</span>
+                          </a>
+                      </li>
+                  </ul>
               </div>
           </nav>
              
-      </div>
+      
       </header>
       <!-- HEADER-->
-      <div class="row">
-          <div class="col-sm-6">
+      <div class="row" id="rowMotorrad">
+          <div class="col-sm-6" id="sm3Motorrad">
             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
                 <div class="hovereffect">
-                    <img class="" src="https://www.abcdin.cl/wcsstore/ABCDIN/images/todo-terreno/864417F13.jpg" alt="" width="350" height="250">
+                    <img class="" src="https://www.abcdin.cl/wcsstore/ABCDIN/images/todo-terreno/864417F13.jpg" alt="" width="350" height="350">
                     <div class="overlay">
                         <h2>Motorrad Racer 250RR</h2>
                     </div>
                 </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-sm-4" id="sm6Motorrad">
               <u>CARACTERÍSTICAS</u>
-              <div class="caracteristicas1"><b>Marca</b>: Loncin
+              <div class="caracteristicas1">
+                  <b>Marca</b>: Loncin
                   <br>
                   <b>Modelo</b>: LX250GS-2
                   <br>
@@ -114,12 +123,19 @@
         <b>Peso en seco</b>: 150kg
         <br>
         <b>Peso</b>: 190 Kg
-          </div>
+          
               </div>
-                  
-              <br>
+              
+          </div>
+          
+          
       </div>
-      
-      
+      <div class="footer" id="img-thumbnail">
+      <div class="foot1">¡ENTÉRATE DE TODO EN NUESTRO SITIO WEB!</div>
+      <br>
+      <div class="foot2">PRÓXIMAMENTE EN FUNCIONAMIENTO</div>
+      <br>
+      <div class="foot3">LA PÁGINA NÚMERO UNO EN EL MERCADO DE MOTOCICLETAS</div>
+  </div>
   </body>
 </html>

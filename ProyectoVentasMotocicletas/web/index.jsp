@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
     <!-- IMPORTACIÓN Bootstrap REMOTO, CSS LOCAL & FUENTES REMOTAS -->
-    <title>Proyecto Motors</title>
+    <title>Patagonia Motors</title>
   </head>
   
   <body>
@@ -67,8 +67,8 @@
                   <ul class="navbar-right">
                       <li>
                           <a href="carroCompras.jsp" id="cart">
-                              <img  class="image_shopping"src="https://cdn4.iconfinder.com/data/icons/shopping-21/64/shopping-02-512.png" width="50px">
-                              <i class="fa fa-shopping-cart"></i>  <span class="badge">3</span>
+                              <img class="image_shopping"src="https://cdn4.iconfinder.com/data/icons/shopping-21/64/shopping-02-512.png" width="50px">
+                              <i class="fa fa-shopping-cart"></i>  <span class="badge">2</span>
                           </a>
                       </li>
                   </ul> 

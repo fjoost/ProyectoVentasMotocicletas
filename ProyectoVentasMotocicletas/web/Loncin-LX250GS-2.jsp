@@ -68,18 +68,17 @@
                       <li>
                           <a href="carroCompras.jsp" id="cart">
                               <img  class="image_shopping"src="https://cdn4.iconfinder.com/data/icons/shopping-21/64/shopping-02-512.png" width="50px">
-                              <i class="fa fa-shopping-cart"></i>  <span class="badge">3</span>
+                              <i class="fa fa-shopping-cart"></i>  <span class="badge">2</span>
                           </a>
                       </li>
-                  </ul>
+                  </ul> 
+                  <!--end navbar-right -->
               </div>
           </nav>
-             
-      </div>
       </header>
       <!-- HEADER-->
-      <div class="row">
-          <div class="col-sm-6">
+      <div class="row" id="rowLoncin">
+          <div class="col-sm-6" id="sm6Loncin">
             <div class="col-lg-3 col-md-4 col-sm-4 col-xs-12">
                 <div class="hovereffect">
                     <img class="img-responsive" src="https://www.abcdin.cl/wcsstore/ABCDIN/images/urbanas/1104057F13.jpg" alt="" width="350" height="250">
@@ -125,9 +124,14 @@
           </div>
               </div>
                   
-              <br>
+         
       </div>
-      
-      
+      <div class="footer" id="img-thumbnail">
+      <div class="foot1">¡ENTÉRATE DE TODO EN NUESTRO SITIO WEB!</div>
+      <br>
+      <div class="foot2">PRÓXIMAMENTE EN FUNCIONAMIENTO</div>
+      <br>
+      <div class="foot3">LA PÁGINA NÚMERO UNO EN EL MERCADO DE MOTOCICLETAS</div>
+  </div>
   </body>
 </html>
