@@ -27,115 +27,84 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
       <!-- COMPONENTES BOOTSTRAP JAVASCRIPT -->
       <!-- HEADER-->
-     <header>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-inverse fixed-top" id="img-thumbnail">
-              <div class="imagen1">
-                      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR620LpKvSCqfoK0DmJ_g7JHUuI1capJm5YWqgH_hkY2c7O_bIu" class="imagen1" width="70px">
-                  </div>
-              <a class="navbar-brand">
-              </a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="index.jsp">INICIO</a>
-                    </li>
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            MODELOS
-                        </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="img-thumbnail">
-                            <a class="dropdown-item" href="#">CIUDAD</a>
-                            <a class="dropdown-item" href="#">CLÁSICAS</a>
-                            <a class="dropdown-item" href="#">VELOCIDAD</a>
-                        </div>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">ACERCA DE NOSOTROS</a>
-                    </li>
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">CONTACTO</a>
-                    </li>
-                  </ul>
-                  <form class="form-inline my-2 my-lg-0">
-                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">BUSCAR</button>
-                  </form>
-                  <ul class="navbar-right">
-                      <li>
-                          <a href="carroCompras.jsp" id="cart">
-                              <img  class="image_shopping"src="https://cdn4.iconfinder.com/data/icons/shopping-21/64/shopping-02-512.png" width="50px">
-                              <i class="fa fa-shopping-cart"></i>  <span class="badge">2</span>
-                          </a>
-                      </li>
-                  </ul>
-              </div>
-          </nav>
-             
-      
-      </header>
+      <jsp:include page="header.jsp"/>
     <!-- HEADER-->
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="hoverCarro">
-                <div>
-                    <figure><img src="https://www.abcdin.cl/wcsstore/ABCDIN/images/todo-terreno/864417F13.jpg" width="350" height="300" /></figure>
-                    
-                 </div>    
-            </div>
-        </div>
-        
-        <div class="col-sm-4">
-            <label for="exampleFormControlSelect1">Cantidad</label>
-            <select class="form-control" id="optionColSm4Motorrad">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-            <label for="TextareaCarro">Comentarios</label>
-            <textarea class="form-control" id="TextareaCarro" rows="3"></textarea>
-            
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="hoverCarro">
-                <div>
-                    <figure><img src="https://www.abcdin.cl/wcsstore/ABCDIN/images/urbanas/1104057F13.jpg" width="350" height="300"/></figure>
-                    
-                 </div>    
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <label for="exampleFormControlSelect1">Cantidad</label>
-            <select class="form-control" id="optionColSm4Motorrad">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
-            </select>
-            <label for="TextareaCarro">Comentarios</label>
-            <textarea class="form-control" id="TextareaCarro" rows="3"></textarea>
-            
-            
-        </div>
-        <button type="submit" class="btn btn-primary">Pagar</button>
-        
-    </div>
+    <section id="cart_items">
+		<div class="container">
+			<div class="table-responsive cart_info">
+				<table class="table table-condensed">
+					<thead> <!-- HEAD DE MI TABLA-->
+						<tr class="cart_menu">
+							<td class="image">Artículo</td>
+							<td class="description">Descripción</td>
+							<td class="price">Valor</td>
+							<td class="quantity">Cantidad</td>
+							<td class="total">Total</td>
+							<td></td>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="cart_product">
+                                                            <a href="Motorrad-Racer-250RR.jsp"><img src="https://www.abcdin.cl/wcsstore/ABCDIN/images/todo-terreno/864417F13.jpg" alt="" width="110" height="110"></a>
+							</td>
+							<td class="cart_description">
+								<h4><a href="">Motorrad Racer 250RR</a></h4>
+								<p>Web ID: 1089772</p>
+							</td>
+							<td class="cart_price">
+								<p>$1.799.990</p>
+                                                                <p>Normal</p>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+									<a class="cart_quantity_up" href=""> + </a>
+									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+									<a class="cart_quantity_down" href=""> - </a>
+								</div>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">$1.799.990</p>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+							</td>
+						</tr>
+
+						<tr>
+							<td class="cart_product">
+                                                            <a href="Loncin-LX250GS-2.jsp"><img src="https://www.abcdin.cl/wcsstore/ABCDIN/images/urbanas/1104057F13.jpg" alt="" width="110" height="110"></a>
+							</td>
+							<td class="cart_description">
+								<h4><a href="">Loncin LX250GS-2</a></h4>
+								<p>Web ID: 89773</p>
+							</td>
+							<td class="cart_price">
+								<p>$1.690.000</p>
+								<p>Normal</p>
+							</td>
+							<td class="cart_quantity">
+								<div class="cart_quantity_button">
+									<a class="cart_quantity_up" href=""> + </a>
+									<input class="cart_quantity_input" type="text" name="quantity" value="1" autocomplete="off" size="2">
+									<a class="cart_quantity_down" href=""> - </a>
+								</div>
+							</td>
+							<td class="cart_total">
+								<p class="cart_total_price">$1.690.000</p>
+							</td>
+							<td class="cart_delete">
+								<a class="cart_quantity_delete" href=""><i class="fa fa-times"></i></a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+	</section> <!--/#cart_items-->
     
  
 
-      <div class="footer" id="img-thumbnail">
-      <div class="foot1">¡ENTÉRATE DE TODO EN NUESTRO SITIO WEB!</div>
-      <br>
-      <div class="foot2">PRÓXIMAMENTE EN FUNCIONAMIENTO</div>
-      <br>
-      <div class="foot3">LA PÁGINA NÚMERO UNO EN EL MERCADO DE MOTOCICLETAS</div>
-  </div>
+      <jsp:include page="footer.jsp"/>
   </body>
 </html>
