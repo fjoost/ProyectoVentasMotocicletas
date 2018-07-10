@@ -1,0 +1,320 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 09-07-2018, 20:13:49
+    Author     : pedro
+*/
+.carousel-inner{
+    height: 500px;
+}
+
+
+
+.carousel-control-prev-icon{
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnGtqXaRtxP_zkWS1Lg2OItAQIwIGqbmogGegzEFOs2kgXoq4);
+    transform: rotate(180deg);
+    size: 30px;
+    color: black;
+}
+.carousel-control-next-icon{
+    
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmnGtqXaRtxP_zkWS1Lg2OItAQIwIGqbmogGegzEFOs2kgXoq4);
+    size: 30px;
+    color: black;
+}
+
+
+
+.badge {
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    padding: 3px 7px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    
+}
+
+.shopping-cart {
+  margin: 20px 0;
+  float: right;
+  background: white;
+  width: 320px;
+  position: relative;
+  border-radius: 3px;
+  padding: 20px;
+  
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #E8E8E8;
+    padding-bottom: 15px;
+    
+    .shopping-cart-total {
+      float: right;
+    }
+  }
+  
+  .shopping-cart-items {
+    
+    padding-top: 20px;
+
+      li {
+        margin-bottom: 18px;
+      }
+
+    img {
+      float: left;
+      margin-right: 12px;
+    }
+    
+    .item-name {
+      display: block;
+      padding-top: 10px;
+      font-size: 16px;
+    }
+    
+    /*.item-price {
+      color: $main-color;
+      margin-right: 8px;
+    }*/
+    
+    /*.item-quantity {
+      color: $light-text;
+    }*/
+  }
+   
+}
+
+.gallery_product{
+    alignment-adjust: 100%;
+    margin-top: 2px;
+}
+
+.reseña{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 45px;
+}
+
+.navbar-dark{
+    background-color: black;
+    color: black;
+}
+
+.nav-link{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    font-size: 12px;
+}
+
+.dropdown-item{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: black;
+    font-size: 12px;
+    
+}
+
+.dropdown-menu{
+    background-color: black;
+}
+
+.btn-outline-success{
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    background-color: black;
+    border-color: white;
+    background: no-repeat;
+}
+
+.moto1, .h6{
+    margin-top: 30px;    
+    font-family: 'Helvetica', monospace;
+    font-size: 14px;
+}
+
+.moto2{
+    margin-top: 30px;    
+    font-family: 'Helvetica', monospace;
+    font-size: 14px;
+}
+
+#motoloncin{
+    font-family: 'Helvetica', monospace;
+    font-size: 18px;
+    
+}
+
+.footer {
+    width: auto;
+    height: 165px;
+    margin-top: 150px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: black;
+    border-top: solid black 1px;
+}
+
+.foot1, .foot2, .foot3{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Helvetica', monospace;
+    font-size: 14px;
+    color: white;
+}
+
+.carousel-item{
+    margin-top: 100px;
+    
+    
+}
+
+.col-sm-4{
+    margin-top: 100px;
+    text-align: center;
+    border: black 1px solid;
+    font-family: 'Roboto Mono', monospace;
+}
+.col-sm-3{
+    margin-top: 100px; 
+    text-align: center;
+    border: black 1px solid;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: calc;
+}
+
+.col-sm-6{
+    margin-top: 100px;
+    text-align: center;
+    border: black 1px solid;
+    margin-left: 130px;
+    
+    
+}
+
+.hovereffect {
+float:left;
+overflow:hidden;
+position: relative;
+margin-left: 85px;
+margin-bottom: 80px;
+text-align:center;
+cursor:default;
+}
+
+.hovereffect img {
+display: block;
+position: relative;
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+}
+
+.hovereffect h2 {
+text-transform: uppercase;
+font-family: 'Roboto Mono', monospace;
+color: white;
+background-color: black;
+text-align: center;
+position:relative;
+font-size:17px;
+background-color: black;
+-webkit-transform:translatey(-40px);
+-ms-transform:translatey(-40px);
+transform:translatey(-40px);
+-webkit-transition:all .2s ease-in-out;
+transition:all .2s ease-in-out;
+padding:10px;
+}
+
+.hovereffect a.info:hover {
+box-shadow:0 0 0px #fff;
+font-family: 'Roboto Mono', monospace;
+}
+
+.hovereffect:hover img {
+-ms-transform:scale(1.1);
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+
+.hovereffect:hover .overlay {
+opacity:1;
+filter:alpha(opacity=100);
+}
+
+.hovereffect:hover h2,.hovereffect:hover a.info {
+opacity:1;
+filter:alpha(opacity=100);
+-ms-transform:translatey(0);
+-webkit-transform:translatey(0);
+transform:translatey(0);
+}
+
+.row{
+    margin-right: auto;
+}
+
+.col-lg-3{
+    border: white;
+}
+
+.caracteristicas1{
+    font-family: 'Helvetica', monospace;
+    text-align: center;
+    text-combine-upright: none;
+    text-decoration: none;
+    text-justify: none;
+    text-transform: none;
+    
+}
+
+.img-thumbnail{
+    background-image: no-repeat;
+    text-align: center;
+    border: none;
+    
+}
+
+#img-thumbnail{
+    background-image: no-repeat;
+    border: none;
+    text-align: center;
+}
+
+.image_shopping{
+    filter: invert(100%);
+}
+/* Opacity #1 */
+.hoverCarro figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hoverCarro figure:hover img {
+	opacity: .5;
+}
+
+.container{
+    margin-left: 100px;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    margin-top: 50px;
+}
+
+.form-group{
+    font-family: 'Roboto Mono', monospace;   
+}
+
+#btnentrarContacto{
+    margin-right: 100px;
+}

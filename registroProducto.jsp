@@ -1,6 +1,6 @@
 <%-- 
     Document   : registroProducto
-    Created on : 01-06-2018, 22:08:21
+    Created on : 09-07-2018, 20:12:50
     Author     : pedro
 --%>
 
@@ -12,18 +12,19 @@
         <title>Formulario de Registro:</title>
         
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="estilos.css">
     </head>
     <body>
        
-        <div class="container">
+<div class="container-fluid">
+    <form>
             
-            <div class="form-group col-md-12 container">
+            <div class="form-group col-md-12 container-fluid">
                 <div class="reseña">
                     <h3 class="formulario">Formulario de Registro Producto:</h3>
                 </div>
             </div>
-            <form>
+            
                  
                 <div class="form-row">
                         <div class="form-group col-md-3">
@@ -159,24 +160,20 @@
                     </div>
                         
                 </div>
-                <div class="form-row col-md-12">
-                     <div class="form-group col-md-12 container">
+                <div class="form-row col-md-12" container-fluid>
+                     <div class="form-group col-md-12 container-fluid">
                           <div class="reseña">
                                <h3>Confirmar Registro:</h3>
                           </div>
                      </div>
                       
-                     <div class="custom-control custom-radio custom-control-inline">
-                        <label for="radio1" class="radio-inline">
-                             <input type="radio" name="opcion1" id="radio1"><label for="radio1">Si</label>
-                        </label>
-                     </div>
-                     
-                     <div class="custom-control custom-radio custom-control-inline">
-                        <label for="radio2" class="radio-inline">
-                             <input type="radio" name="opcion2" id="radio2"><label for="radio1">No</label>
-                        </label>
-                     </div>
+                     <div class="form-row col-md-12">
+                    
+                            <div class="custom-control custom-radio custom-control-inline form-group">
+                                 <li><input type="radio" name="sexo" value="Si"/> Si <input name="sexo" value="No" type="radio">No</li>
+                            </div>
+                    
+                    </div>
                     
                 </div>
                 
@@ -189,13 +186,14 @@
                 </div>
                 
                  
-            </form>
+    </form>
             
             
-        </div>
+</div>
        
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
     </body>
 </html>
+
