@@ -15,7 +15,7 @@ and open the template in the editor.
     <!-- META TAGS REQUERIDOS-->
     <!-- IMPORTACIÓN Bootstrap CSS REMOTO, CSS LOCAL & FUENTES REMOTAS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono">
     <!-- IMPORTACIÓN Bootstrap REMOTO, CSS LOCAL & FUENTES REMOTAS -->
     <title>Patagonia Motors</title>
@@ -58,6 +58,12 @@ and open the template in the editor.
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="#">CONTACTO</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">INGRESO USUARIO</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">REGISTRO USUARIO</a>
                     </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
@@ -135,7 +141,7 @@ and open the template in the editor.
           <br>
           <b>Peso</b>: 145 Kg
       </div>
-      <div class="container text-center my-3">
+      <div class="container-fluid text-center my-3">
       <div class="reseña">
             <center>
                 MARCAS ASOCIADAS
@@ -167,26 +173,20 @@ and open the template in the editor.
             <span class="sr-only">Next</span>
         </a>
     </div>
+      
+    <div class="reseña container-fluid">
+           <center>ENLACES ASOCIADOS<br></center> 
+    </div>
 
-  <div class="container text-center my-3">
-        <div class="reseña">
-            <center>
-                ENLACES ASOCIADOS
-            </center>
-      </div>
-      <a href="http://www.yamahamotos.cl/">YAMAHA</a> <br>
-      <a href="http://www.h-dsantiago.cl/motos-nuevas/">HARLEY DAVIDSON</a> <br>
-      <a href="http://www.suzukimotos.cl/">SUSUKI</a> <br>
-      <a href="https://motos.honda.cl/">HONDA</a> <br>
-      <a href="http://www.indianmotorcycle.cl/">INDIAN MOTORCYCLE</a> <br>
-      <a href="http://www.motorrad.cl/">MOTORRAD</a> <br>
-      <a href="http://www.imoto.cl/productos/listar/0/7/0/">LONCIN</a> <br>
-      <a href="http://www.ktm.cl/">KTM</a> <br>
-</div>
+    <div class="container-fluid text-center my-3">
+       
+         <a href="http://www.yamahamotos.cl/">YAMAHA</a> , <a href="http://www.h-dsantiago.cl/motos-nuevas/">HARLEY DAVIDSON</a> , <a href="http://www.suzukimotos.cl/">SUSUKI</a> , <a href="https://motos.honda.cl/">HONDA</a> ,  <a href="http://www.indianmotorcycle.cl/">INDIAN MOTORCYCLE</a> ,  <a href="http://www.motorrad.cl/">MOTORRAD</a> , <a href="http://www.imoto.cl/productos/listar/0/7/0/">LONCIN</a> , <a href="http://www.ktm.cl/">KTM</a> <br>
+   
+    </div>
   </center>
   <br>
   <br>
-  <div class="reseña">
+  <div class="reseña container-fluid">
       <center>SITIO WEB EN CONSTRUCCIÓN<br></center> 
   </div>
   <center>
@@ -234,12 +234,33 @@ and open the template in the editor.
         <b>Peso</b>: 190 Kg
       </div>
   </center>
-  <div class="footer" id="img-thumbnail">
-      <div class="foot1">¡ENTÉRATE DE TODO EN NUESTRO SITIO WEB!</div>
-      <br>
-      <div class="foot2">PRÓXIMAMENTE EN FUNCIONAMIENTO</div>
-      <br>
-      <div class="foot3">LA PÁGINA NÚMERO UNO EN EL MERCADO DE MOTOCICLETAS</div>
-  </div>
+  
+    <div class="footer">
+        <div class="foot1 col-md-12 form-row">
+            <ul class="Datos form-group col-md-4">
+                <h5 class="form-group">Direccion</h5>
+                <li>
+                    <h6>Las Violetas 171, Coyhaique</h6>
+                    <h6>Region de Aysen, Patagonia Chilena</h6>
+                </li>
+            </ul>
+            <ul class="Correo form-group col-md-4">
+                <h5 class="form-group">Correo</h5>
+                <li>
+                    <h6>augusto.moraga@inacapmail.cl</h6>
+                    <h6>fernando.joost@inacapmail.cl</h6>
+                    <h6>pedro.nunez07@inacapmail.cl</h6>
+                </li>
+            </ul>
+            <ul class="Telefono form-group col-md-4">
+                <h5 class="form-group">Telefono</h5>
+                <li>
+                    <h6>988761290 , Augusto Moraga</h6>
+                    <h6>956046723 , Fernando Joost</h6>
+                    <h6>961401812 , Pedro Nuñez</h6>
+                </li>
+            </ul>
+        </div>       
+    </div>
 </body>
 </html>
