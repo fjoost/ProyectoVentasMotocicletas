@@ -1,9 +1,9 @@
-<%-- 
-    Document   : index
-    Created on : 30-abr-2018, 12:17:56
-    Author     : fjoost
---%>
-
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <!doctype html>
@@ -135,10 +135,52 @@
           <br>
           <b>Peso</b>: 145 Kg
       </div>
+      <div class="container-fluid text-center my-3">
+      <div class="reseña">
+            <center>
+                MARCAS ASOCIADAS
+            </center>
+      </div>
+    </div>
+  
+    <div id="recipeCarousel" class="carousel slide w-100" data-ride="carousel">
+        <div class="carousel-inner w-100" role="listbox">
+            <div class="carousel-item row no-gutters active">
+                <div class="col-3 float-left"><img class="img-fluid" src="http://www.honda.es/etc/designs/honda/theme_inclusive/img/logos/logo_motorbikes_hires.png"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="https://bienpensado.com/wp-content/uploads/Harley-Davidson.jpg"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlsr8t4xqiwYt09tZm06J3SWAPr9s_7gTZEo8JtG30p0xV_cs7"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="https://src.soymotero.net/images/timthumb.php?src=29559.jpg&w=800&s=1"></div>
+            </div>
+            <div class="carousel-item row no-gutters">
+                <div class="col-3 float-left"><img class="img-fluid" src="https://ugc.kn3.net/i/origin/http://i60.photobucket.com/albums/h5/petekane_photos/IndianLogo.jpg"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="https://fedemoto.info/ImgNoticia/22/2011/05/logo%20motorrad.jpg"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="http://2.bp.blogspot.com/-zqg0bXyAr1A/VftL6oD-rMI/AAAAAAAAAhE/zCKvxhKMG4A/s1600/loncinz.png"></div>
+                <div class="col-3 float-left"><img class="img-fluid" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4Xa81gUM0sZa9ORdkOuKP6vhnQwrIy7MH0juxqXstgfuyluTB"></div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#recipeCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#recipeCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+      
+    <div class="reseña container-fluid">
+           <center>ENLACES ASOCIADOS<br></center> 
+    </div>
+
+    <div class="container-fluid text-center my-3">
+       
+         <a href="http://www.yamahamotos.cl/">YAMAHA</a> , <a href="http://www.h-dsantiago.cl/motos-nuevas/">HARLEY DAVIDSON</a> , <a href="http://www.suzukimotos.cl/">SUSUKI</a> , <a href="https://motos.honda.cl/">HONDA</a> ,  <a href="http://www.indianmotorcycle.cl/">INDIAN MOTORCYCLE</a> ,  <a href="http://www.motorrad.cl/">MOTORRAD</a> , <a href="http://www.imoto.cl/productos/listar/0/7/0/">LONCIN</a> , <a href="http://www.ktm.cl/">KTM</a> <br>
+   
+    </div>
   </center>
   <br>
   <br>
-  <div class="reseña">
+  <div class="reseña container-fluid">
       <center>SITIO WEB EN CONSTRUCCIÓN<br></center> 
   </div>
   <center>
@@ -186,12 +228,33 @@
         <b>Peso</b>: 190 Kg
       </div>
   </center>
-  <div class="footer" id="img-thumbnail">
-      <div class="foot1">¡ENTÉRATE DE TODO EN NUESTRO SITIO WEB!</div>
-      <br>
-      <div class="foot2">PRÓXIMAMENTE EN FUNCIONAMIENTO</div>
-      <br>
-      <div class="foot3">LA PÁGINA NÚMERO UNO EN EL MERCADO DE MOTOCICLETAS</div>
-  </div>
+  
+    <div class="footer">
+        <div class="foot1 col-md-12 form-row">
+            <ul class="Datos form-group col-md-4">
+                <h5 class="form-group">Direccion</h5>
+                <li>
+                    <h6>Las Violetas 171, Coyhaique</h6>
+                    <h6>Region de Aysen, Patagonia Chilena</h6>
+                </li>
+            </ul>
+            <ul class="Correo form-group col-md-4">
+                <h5 class="form-group">Correo</h5>
+                <li>
+                    <h6>augusto.moraga@inacapmail.cl</h6>
+                    <h6>fernando.joost@inacapmail.cl</h6>
+                    <h6>pedro.nunez07@inacapmail.cl</h6>
+                </li>
+            </ul>
+            <ul class="Telefono form-group col-md-4">
+                <h5 class="form-group">Telefono</h5>
+                <li>
+                    <h6>988761290 , Augusto Moraga</h6>
+                    <h6>956046723 , Fernando Joost</h6>
+                    <h6>961401812 , Pedro Nuñez</h6>
+                </li>
+            </ul>
+        </div>       
+    </div>
 </body>
 </html>
