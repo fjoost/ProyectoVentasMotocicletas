@@ -1,6 +1,6 @@
 <%-- 
-    Document   : tipoMotoScooter
-    Created on : 12-07-2018, 11:44:55
+    Document   : tipoMotoSport
+    Created on : 13-07-2018, 3:23:07
     Author     : pedro
 --%>
 
@@ -37,7 +37,7 @@
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="tipoMotoScooter.jsp">SCOOTER</a>
                             <a class="dropdown-item" href="tipoMotoCustom.jsp">CUSTOM</a>
-                            <a class="dropdown-item" href="#">VELOCIDAD</a>
+                            <a class="dropdown-item" href="tipoMotoSport.jsp">VELOCIDAD</a>
                         </div>
                     </li>
                     <li class="nav-item active">
@@ -76,20 +76,21 @@
               <form>
                   <div class="form-group col-md-12 container-fluid">
                       <div class="reseña">
-                          <br><br>
+                          <br>
                       </div>
                  </div>
                   
                  <div class="form-row">
                      <div class="form-group col-md-12">
-                         <h5>SCOOTER, EL COMIENZO LÓGICO:</h5>
+                         <h5>SPORT, BARRA LIBRE Y ADRENALINA</h5>
                      </div>
                  </div>
                   
                   <div class="form-row">
                       <div class="form-group col-md-12">
-                          <h6>Uno de los pasos lógicos a la hora de interesarse por las motos como medio de transporte, especialmente si no hay una experiencia previa en el mundo de las dos ruedas, es buscar en los scooter ese elemento práctico que nos ayude a movernos de un lugar a otro sin mayor dificultad que acelerar y frenar, perfectos para ciudad.</h6>
-                          <h6>Sin marchas, los scooter representan uno de los segmentos que mantienen a flote el mercado de las dos ruedas, precisamente por que son fáciles de llevar y aquellas motocicletas con las que muchos hemos aprendido a movernos.</h6>
+                          <h6>Las emociones fuertes y la adrenalina son quizá los motivos principales por los que amamos las motos. Dentro de este extenso mercado de motos de todo tipo también hay hueco para un segmento popular como pocos: el de las deportivas. </h6>
+                          <br>
+                          <h6>Prácticamente todas las marcas han sacado modelos a escala de sus grandes motos aspiracionales sin tener que meternos en motos con más de 100 cv, porque para divertirse a veces menos es más y los usuarios del carnet A2 también necesitan una inyección de diversión en estado puro. Ligeras, efectivas y con una estética agresiva, las deportivas pequeñas forman uno de los segmentos más nutridos. </h6>
                       </div>
                   </div>
                   
@@ -98,56 +99,56 @@
               <div class="carousel-item active">
                   <br>
                   <div class="form-group">
-                      <input type="text" class="form-control" value="Marca: Yamaha
-                      Modelo: XA-125
-                      Precio:  $1.199.000" disabled>
+                      <input type="text" class="form-control" value="Marca: YAMAHA
+                      Modelo: XSR900
+                      Precio:  $2.300.000" disabled>
                   </div>
-                  <center><img src="http://www.yamahamotos.cl/wp-content/uploads/2016/09/XA125b_producto.png" alt="First slide" width="640" height="350"></center>
-              </div>
-              <div class="carousel-item">
-                  <br>
-                  <div class="form-group">
-                      <input type="text" class="form-control" value="Marca: Honda
-                      Modelo: Dio Scooter Rs
-                      Precio:  $2.199.000" disabled>
-                  </div>
-                  <center><img src="https://5.imimg.com/data5/CT/HG/MY-23163549/honda-dio-scooter-500x500.png" alt="Second slide" width="640" height="350" ></center>
-              </div>
-              <div class="carousel-item">
-                  <br>
-                  <div class="form-group">
-                      <input type="text" class="form-control" value="Marca: Susuki
-                      Modelo: AN 125
-                      Precio:  $1.049.900" disabled>
-                  </div>
-                  <center><img src="https://www.hpplus.cl/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/o/moto-suzuki-an-125-vista-2.jpg" alt="Third slide"width="640" height="350"></center>
+                  <center><img src="https://cloud.yamahamotorsports.com/library/img.jpg?id=59c2e7442a0ab7223c26fbff&w=840" alt="First slide" width="640" height="350"></center>
               </div>
               <div class="carousel-item">
                   <br>
                   <div class="form-group">
                       <input type="text" class="form-control" value="Marca: KTM
-                      Modelo: DUKE 125
-                      Precio:  $1.549.800" disabled>
+                      Modelo: RC 390 2017
+                      Precio:  $3.200.000" disabled>
                   </div>
-                  <center><img src="http://motos-tivoli-rent.eu/es/wp-content/uploads/sites/2/2016/04/KTM-Duke-125-cc.png" alt="Third slide"width="640" height="350"></center>
+                  <center><img src="https://www.gregoiresport.com/wp-content/uploads/2016/04/153218_KTM-RC-390-MY-2017.jpg" alt="Second slide" width="640" height="350" ></center>
               </div>
               <div class="carousel-item">
                   <br>
                   <div class="form-group">
-                      <input type="text" class="form-control" value="Marca: MOTORRAD
-                      Modelo: IMPERIAL 150
-                      Precio:  $1.199.100" disabled>
+                      <input type="text" class="form-control" value="Marca: SUSUKI
+                      Modelo: GSX-R 1000
+                      Precio:  $4.560.700" disabled>
                   </div>
-                  <center><img src="http://admin.aeurus.cl/upload/imagenes-pagina/motorrad/3323/18/interna/1480363047.jpg" alt="Third slide"width="640" height="350"></center>
+                  <center><img src="http://www.excelenciasdelmotor.com/sites/default/files/u7/22_08_2010-19-34-17suzuki-gsx-r-1000-k1.jpg" alt="Third slide"width="640" height="350"></center>
               </div>
               <div class="carousel-item">
                   <br>
                   <div class="form-group">
-                      <input type="text" class="form-control" value="Marca: Loncin
-                      Modelo: LX125T-55
-                      Precio:  $999.100" disabled>
+                      <input type="text" class="form-control" value="Marca: HONDA
+                      Modelo: CBR500R
+                      Precio:  $4.600.800" disabled>
                   </div>
-                  <center><img src="https://www.abcdin.cl/wcsstore/ABCDIN/images/scooter/1107782AF13.jpg" alt="Third slide"width="640" height="350"></center>
+                  <center><img src="http://77.74.192.164/imagestream/19131/1822247x1200x701_FFFFFF_E.jpg" alt="Third slide"width="640" height="350"></center>
+              </div>
+              <div class="carousel-item">
+                  <br>
+                  <div class="form-group">
+                      <input type="text" class="form-control" value="Marca: HONDA
+                      Modelo: CB 250 TWISTER
+                      Precio:  $6.299.100" disabled>
+                  </div>
+                  <center><img src="https://www.blogdecoches.net/wp-content/uploads/2018/02/Nueva-Honda-Twister-CB250-2018-Precio-Consumo-Ficha-T%C3%A9cnina-02.jpg" alt="Third slide"width="640" height="350"></center>
+              </div>
+              <div class="carousel-item">
+                  <br>
+                  <div class="form-group">
+                      <input type="text" class="form-control" value="Marca: LONCIN
+                      Modelo: LX250GS-2
+                      Precio:  $2.799.100" disabled>
+                  </div>
+                  <center><img src="https://imgb2bautos.ecn.cl/resource/public/imagen/loncin-lx250gs-2-2016-id-XJ6OOphgFfo-g_uC3SIdET4-gA2wT_Ru9_4.jpg" alt="Third slide"width="640" height="350"></center>
               </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">

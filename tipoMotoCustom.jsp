@@ -1,6 +1,6 @@
 <%-- 
-    Document   : tipoMotoScooter
-    Created on : 12-07-2018, 11:44:55
+    Document   : tipoMotoCustom
+    Created on : 13-07-2018, 1:32:18
     Author     : pedro
 --%>
 
@@ -76,20 +76,21 @@
               <form>
                   <div class="form-group col-md-12 container-fluid">
                       <div class="reseña">
-                          <br><br>
+                          <br>
                       </div>
                  </div>
                   
                  <div class="form-row">
                      <div class="form-group col-md-12">
-                         <h5>SCOOTER, EL COMIENZO LÓGICO:</h5>
+                         <h5>CUSTOM, ESTILO MAXIMO:</h5>
                      </div>
                  </div>
                   
                   <div class="form-row">
                       <div class="form-group col-md-12">
-                          <h6>Uno de los pasos lógicos a la hora de interesarse por las motos como medio de transporte, especialmente si no hay una experiencia previa en el mundo de las dos ruedas, es buscar en los scooter ese elemento práctico que nos ayude a movernos de un lugar a otro sin mayor dificultad que acelerar y frenar, perfectos para ciudad.</h6>
-                          <h6>Sin marchas, los scooter representan uno de los segmentos que mantienen a flote el mercado de las dos ruedas, precisamente por que son fáciles de llevar y aquellas motocicletas con las que muchos hemos aprendido a movernos.</h6>
+                          <h6>¿Sueñas con una Harley-Davidson? ¿Te encantaría posturear sobre una Indian con tus tatuajes escondidos bajo una chupa de cuero llena de parches? Bueno, para llegar a ese nivel primero hay que empezar por motos menos pesadas, porque aunque su asiento esté muy bajo hay que aprender a mover una moto que pese menos durante nuestros primeros pasos sobre una motocicleta.</h6>
+                          <BR>
+                          <h6>Tanto por dimensiones como por estabilidad, facilidad de uso y la inestimable confianza que da poder llegar bien con los dos pies al suelo, las pequeñas custom son grandes motos para iniciarse en el mundo de las dos ruedas con mucho estilo.</h6>
                       </div>
                   </div>
                   
@@ -99,55 +100,55 @@
                   <br>
                   <div class="form-group">
                       <input type="text" class="form-control" value="Marca: Yamaha
-                      Modelo: XA-125
-                      Precio:  $1.199.000" disabled>
+                      Modelo: BOLT
+                      Precio:  $6.199.000" disabled>
                   </div>
-                  <center><img src="http://www.yamahamotos.cl/wp-content/uploads/2016/09/XA125b_producto.png" alt="First slide" width="640" height="350"></center>
+                  <center><img src="http://www.yamahamotos.cl/wp-content/uploads/2016/09/BOLT_producto.png" alt="First slide" width="640" height="350"></center>
               </div>
               <div class="carousel-item">
                   <br>
                   <div class="form-group">
                       <input type="text" class="form-control" value="Marca: Honda
-                      Modelo: Dio Scooter Rs
-                      Precio:  $2.199.000" disabled>
+                      Modelo: SHADOW 150
+                      Precio:  $1.399.000" disabled>
                   </div>
-                  <center><img src="https://5.imimg.com/data5/CT/HG/MY-23163549/honda-dio-scooter-500x500.png" alt="Second slide" width="640" height="350" ></center>
+                  <center><img src="https://honda-chile-production.s3.amazonaws.com/uploads/imagen/archivo/2158/shadow150rojo01.jpg" alt="Second slide" width="640" height="350" ></center>
               </div>
               <div class="carousel-item">
                   <br>
                   <div class="form-group">
-                      <input type="text" class="form-control" value="Marca: Susuki
-                      Modelo: AN 125
-                      Precio:  $1.049.900" disabled>
+                      <input type="text" class="form-control" value="Marca: Harley Davidson
+                      Modelo: IRON 883
+                      Precio:  $6.049.900" disabled>
                   </div>
-                  <center><img src="https://www.hpplus.cl/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/m/o/moto-suzuki-an-125-vista-2.jpg" alt="Third slide"width="640" height="350"></center>
+                  <center><img src="https://media.zigcdn.com/media/model/2017/Dec/iron-883-right-view_600x300.jpg" alt="Third slide"width="640" height="350"></center>
               </div>
               <div class="carousel-item">
                   <br>
                   <div class="form-group">
-                      <input type="text" class="form-control" value="Marca: KTM
-                      Modelo: DUKE 125
-                      Precio:  $1.549.800" disabled>
+                      <input type="text" class="form-control" value="Marca: INDIAN MOTORCYCLE
+                      Modelo: INDIAN® CHIEF® CLASS
+                      Precio:  $5.549.800" disabled>
                   </div>
-                  <center><img src="http://motos-tivoli-rent.eu/es/wp-content/uploads/sites/2/2016/04/KTM-Duke-125-cc.png" alt="Third slide"width="640" height="350"></center>
+                  <center><img src="http://cdn-gen.polaris.com/ind/2018/img/vehicle-selector/2015/chief-classic-indian-red.png" alt="Third slide"width="640" height="350"></center>
               </div>
               <div class="carousel-item">
                   <br>
                   <div class="form-group">
                       <input type="text" class="form-control" value="Marca: MOTORRAD
-                      Modelo: IMPERIAL 150
-                      Precio:  $1.199.100" disabled>
+                      Modelo: NEW CUSTOM 150
+                      Precio:  $900.100" disabled>
                   </div>
-                  <center><img src="http://admin.aeurus.cl/upload/imagenes-pagina/motorrad/3323/18/interna/1480363047.jpg" alt="Third slide"width="640" height="350"></center>
+                  <center><img src="http://blumenmotos.cl/wp-content/uploads/2017/09/New-Custom-150.jpg" alt="Third slide"width="640" height="350"></center>
               </div>
               <div class="carousel-item">
                   <br>
                   <div class="form-group">
-                      <input type="text" class="form-control" value="Marca: Loncin
-                      Modelo: LX125T-55
-                      Precio:  $999.100" disabled>
+                      <input type="text" class="form-control" value="Marca: INDIAN MOTOCYCLE
+                      Modelo: INDIAN CHIEF DARK HOUSE 
+                      Precio:  $8.999.100" disabled>
                   </div>
-                  <center><img src="https://www.abcdin.cl/wcsstore/ABCDIN/images/scooter/1107782AF13.jpg" alt="Third slide"width="640" height="350"></center>
+                  <center><img src="https://www.motofichas.com/images/phocagallery/Indian_Motorcycle/chief-dark-horse-classic-2018/33-indian-chief-dark-horse-2018-perfil.jpg" alt="Third slide"width="640" height="350"></center>
               </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
