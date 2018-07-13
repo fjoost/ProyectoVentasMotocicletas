@@ -40,7 +40,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a class="dropdown-item" href="#">CIUDAD</a>
-                            <a class="dropdown-item" href="#">CLÁSICAS</a>
+                            <a class="dropdown-item" href="tipoMotoCustom.jsp">CUSTOM</a>
                             <a class="dropdown-item" href="#">VELOCIDAD</a>
                         </div>
                     </li>
