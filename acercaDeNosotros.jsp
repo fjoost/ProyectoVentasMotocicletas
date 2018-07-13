@@ -1,6 +1,6 @@
 <%-- 
-    Document   : contacto
-    Created on : 10-07-2018, 9:27:29
+    Document   : acercaDeNosotros
+    Created on : 12-07-2018, 20:34:56
     Author     : pedro
 --%>
 
@@ -19,6 +19,7 @@
     <!-- IMPORTACIÓN Bootstrap REMOTO, CSS LOCAL & FUENTES REMOTAS -->
     </head>
     <header>
+        <br><br>
           <nav class="navbar navbar-expand-lg navbar-dark bg-inverse fixed-top">
               <div class="imagen1">
                       <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR620LpKvSCqfoK0DmJ_g7JHUuI1capJm5YWqgH_hkY2c7O_bIu" class="imagen1" width="70px">
@@ -44,7 +45,7 @@
                         </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">ACERCA DE NOSOTROS</a>
+                        <a class="nav-link" href="acercaDeNosotros.jsp">ACERCA DE NOSOTROS</a>
                     </li>
                     <li class="nav-item active">
                         <a class="nav-link" href="contacto.jsp">CONTACTO</a>
@@ -74,47 +75,37 @@
     <body>
        
 <div class="container-fluid">
+    
     <div class="reseña">
                  <div class="form-group col-md-12 container">
-                       <h3>FORMULARIO DE CONTACTO</h3>
+                       <h3>Acerca de Nosotros</h3>
+                      
+                 </div>
+    </div>
+    
+    <div class="reseña">
+                 <div class="form-group col-md-12 container">
+                       <h5>Un Poco de Historia</h5>
                       
                  </div>
     </div>
     <form>
-           <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label id="nombreClienteContacto">INGRESE NOMBRE DE USUARIO</label>
-                        <input type="text" id="nombreContacto" class="form-control" placeholder="">
-                    </div>
-                </div>
-                
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                        <label id="selectTipoContacto">SELECCIONE EL TIPO</label>
-                        <select name="selectContacto">
-                            <option value="Duda" name="selectContacto1">DUDA</option>
-                            <option value="Sugerencia" name="selectContacto2">SUGERENCIA</option>
-                            <option value="Queja" name="selectContacto3">QUEJA/RECLAMO</option>
-                        </select>
-                    </div>
-                </div>
-                </div>
-                <div class="form-row container">
-                     
-                     <div class="form-row col-md-12 container">
-                         
-                        <label for="areaTexto">
-                            <textarea name="textareaContacto" maxlength="300" placeholder="Escriba aquí, tiene un máximo de 300 carácteres."
-                                      rows="5" cols="50"></textarea>
-                        </label>
-                     </div>
-                </div>
-                 
-                <div class="col-md-12">
+            <div class="form-row">
+                      <div class="form-group col-md-12">
+                          <h6>A mediados del año 2018, un grupo de jovenes, apacionados por las motos se unieron y decidieron iniciar un sueño, una ambicion, un desafio. Iniciar su negocio de venta de motos en esta bella region de Aysen.</h6>
+                          <br>
+                          <h6>Los nombres de estos jovenes empresarios son Augusto Moraga, Pedro Nuñez y Fernando Joost, ellos se organizaron y decicieron especializarce en tres tipos de motos, para vender en su tienda. Las motos de tipo Scooter, la tipica moto para comenzar con este maravilloso mundo del motociclismo, Custom motos algo rudas y con estilo clasico, una fusion de modernidad con lo retro y por ultimo las Sport , solo velocidad y adrenalina en dos ruedas.</h6>
+                          <br>
+                          <h6>con esto como compañia deseamos innovar en el mercado de motocicletas, traendo marcas muy conocidas en el mercado. como la tradicional yamaha, honda y las clasicas como las indian Motoclicle, esperamos ser una empresa bien acojida en esta maravillosa region, la ultima froontera.Patagonia Chilena.</h6>
+                      </div>
+            </div>
+            
+            <div class="col-md-12">
                           <center><b>
-                              <input class="btn-dark btn btn-primary" type="submit" value="GENERAR"> <input class="btn-dark btn btn-primary" type="RESET" value="BORRAR"> <input class="btn-dark btn btn-primary" type="submit" value="VOLVER INICIO" formaction="index.jsp"> 
+                                  <input class="btn-dark btn btn-primary" type="submit" value="VOLVER INICIO" formaction="index.jsp"> 
                           </center>
-                </div> 
+            </div> 
+                 
     </form>
             
             

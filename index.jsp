@@ -48,22 +48,22 @@ and open the template in the editor.
                             MODELOS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">CIUDAD</a>
+                            <a class="dropdown-item" href="tipoMotoScooter.jsp">SCOOTER</a>
                             <a class="dropdown-item" href="#">CLÁSICAS</a>
                             <a class="dropdown-item" href="#">VELOCIDAD</a>
                         </div>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">ACERCA DE NOSOTROS</a>
+                        <a class="nav-link" href="acercaDeNosotros.jsp">ACERCA DE NOSOTROS</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">CONTACTO</a>
+                        <a class="nav-link" href="contacto.jsp">CONTACTO</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">INGRESO USUARIO</a>
+                        <a class="nav-link" href="ingresoUsuario.jsp">INGRESO USUARIO</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="#">REGISTRO USUARIO</a>
+                        <a class="nav-link" href="registroUsuario.jsp">REGISTRO USUARIO</a>
                     </li>
                   </ul>
                   <form class="form-inline my-2 my-lg-0">
