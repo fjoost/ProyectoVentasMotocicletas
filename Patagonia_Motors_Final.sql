@@ -454,3 +454,232 @@ ENGINE = InnoDB;
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
+
+
+insert CLIENTE(rutCliente, nombreCliente, apellidoPaternoCliente, apellidoMaternoCliente)
+values (165340280,'Pedro','Nuñez','Cadin')
+
+insert CLIENTE(rutCliente, nombreCliente, apellidoPaternoCliente, apellidoMaternoCliente)
+values (214553441,'Pablo','Escobar','Gabilla')
+
+insert CLIENTE(rutCliente, nombreCliente, apellidoPaternoCliente, apellidoMaternoCliente)
+values (189908997,'Augusto','Moraga','Alvarado')
+
+insert CLIENTE(rutCliente, nombreCliente, apellidoPaternoCliente, apellidoMaternoCliente)
+values (228776541,'Alexander','Velasquez','Velasquez')
+
+insert CLIENTE(rutCliente, nombreCliente, apellidoPaternoCliente, apellidoMaternoCliente)
+values (187885641,'Tomas','Loaiza','Solis')
+
+insert CLIENTE(rutCliente, nombreCliente, apellidoPaternoCliente, apellidoMaternoCliente)
+values (162334415,'Jesus','Baeza','Baesa')
+
+SELECT * FROM CLIENTES;
+
+insert MARCA_MOTO(idMarcamoto, nombreMarcamoto)
+values (1,'YAMAHA')
+
+insert MARCA_MOTO(idMarcamoto, nombreMarcamoto)
+values (2,'HONDA')
+
+insert MARCA_MOTO(idMarcamoto, nombreMarcamoto)
+values (3,'SUSUKI')
+
+insert MARCA_MOTO(idMarcamoto, nombreMarcamoto)
+values (4,'INDIAN_MOTOCYCLE')
+
+insert MARCA_MOTO(idMarcamoto, nombreMarcamoto)
+values (5,'MOTORROAD')
+
+insert MARCA_MOTO(idMarcamoto, nombreMarcamoto)
+values (6,'HARLEY_DAVIDSON')
+
+insert MARCA_MOTO(idMarcamoto, nombreMarcamoto)
+values (7,'LONCIN')
+
+SELECT *FROM MARCA_MOTO;
+
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (1,'XA-125')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (2,'DIO SCOOTER RS')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (3,'AN 125')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (4,'DUKE 125')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (5,'IMPERIAL 150')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (6,'LX125T-55')
+
+
+SELECT * FROM MODELO_MOTO;
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (7,'BOLT')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (8,'SHADOW 150')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (8,'IRON 883')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (9,'INDIAN® CHIEF® CLASS')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (10,'NEW CUSTOM 150')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (11,'INDIAN CHIEF DARK HOUSE')
+
+SELECT * FROM MODELO_MOTO;
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (12,'XSR900')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (13,'XSR900')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (14,'RC 390 2017')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (15,'GSX-R 1000')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (16,'CBR500R')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (17,'CB 2500 TWISTER')
+
+insert MODELO_MOTO(idModelomoto, nombreModelomoto)
+values (18,'LX250GS-2')
+
+SELECT * FROM MODELO_MOTO;
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (1,'SCOOTER')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (2,'SCOOTER')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (3,'SCOOTER')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (4,'SCOOTER')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (5,'SCOOTER')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (6,'SCOOTER')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (7,'CUSTOM')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (8,'CUSTOM')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (9,'CUSTOM')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (10,'CUSTOM')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (11,'CUSTOM')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (13,'CUSTOM')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (14,'SPORT')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (15,'SPORT')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (16,'SPORT')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (17,'SPORT')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (18,'SPORT')
+
+insert TIPO_MOTO(idTipomoto, nombreTipomoto)
+values (19,'SPORT')
+
+SELECT * FROM TIPO_MOTO;
+
+insert MOTO(idMoto, numeroserieMoto)
+values (1,2147483647)
+
+insert MOTO(idMoto, numeroserieMoto)
+values (4,00099911123)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(2,1233445512)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(3,0009998887)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(5,1112223334)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(6,1212344561)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(7,23345512)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(8,12200981)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(9,00998877)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(10,1122334455)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(11,232323456)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(12,334455661)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(13,8989123)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(14,45456732)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(15,12345611)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(16,233566123)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(17,12009988)
+
+insert MOTO(idMoto, numeroserieMoto)
+values(18,23124566)
+
+
+SELECT * FROM MOTO;
+
+insert EMPRESA (rutEmpresa,nombreEmpresa)
+values(883345671,'Patagonia Motors')
+
+SELECT * FROM EMPRESA;
+
+
